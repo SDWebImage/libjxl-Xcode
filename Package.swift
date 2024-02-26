@@ -104,13 +104,12 @@ let package = Package(
             publicHeadersPath: "libjxl/lib/include",
             cSettings: [.headerSearchPath("generate"),
                         .headerSearchPath("libjxl"),
-                        .headerSearchPath("libjxl/third_party/highway"),
                         .define("CMS_NO_REGISTER_KEYWORD")]
         ),
         .target(
             name: "brotli",
             path: "libjxl/third_party/brotli/c",
-            exclude: ["fuzz"],
+            exclude: ["fuzz", "tools"],
             publicHeadersPath: "include"
             ),
         .target(
@@ -122,7 +121,7 @@ let package = Package(
                      "hwy/nanobenchmark_test.cc",
                      "hwy/targets_test.cc",
                      "hwy/base_test.cc"],
-            cSettings: [.headerSearchPath(".")]
+            publicHeadersPath: "."
             ),
         .target(
             name: "lcms",
