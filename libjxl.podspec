@@ -63,6 +63,7 @@ JPEG XL image format reference implementation
     ss.exclude_files = [
     'libjxl/lib/jxl/**/*_test.{c,cc}', # gtest
     'libjxl/lib/jxl/dec_transforms_testonly.{c,cc}', # test
+    'libjxl/lib/jxl/test_image.{c,cc}', # test
     'libjxl/lib/jxl/test_utils.{c,cc}', # test
     'libjxl/lib/jxl/**/*_gbench.{c,cc}' # gbench
     ]

@@ -91,6 +91,9 @@ let package = Package(
                       // test
                       "libjxl/lib/jxl/dec_transforms_testonly.h",
                       "libjxl/lib/jxl/dec_transforms_testonly.cc",
+                      "libjxl/lib/jxl/test_image.h",
+                      "libjxl/lib/jxl/test_image.cc",
+                      "libjxl/lib/jxl/test_utils.h",
                       "libjxl/lib/jxl/test_utils.cc",
                       // gbench
                       "libjxl/lib/jxl/enc_external_image_gbench.cc",

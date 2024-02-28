@@ -229,7 +229,6 @@
 		323E1F4E2B88989F001C4C15 /* fast_dct8-inl.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1B952B88989E001C4C15 /* fast_dct8-inl.h */; };
 		323E1F4F2B88989F001C4C15 /* quantizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1B962B88989E001C4C15 /* quantizer.h */; };
 		323E1F502B88989F001C4C15 /* dec_xyb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1B972B88989E001C4C15 /* dec_xyb.cc */; };
-		323E1F512B88989F001C4C15 /* test_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1B982B88989E001C4C15 /* test_image.cc */; };
 		323E1F522B88989F001C4C15 /* enc_entropy_coder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1B992B88989E001C4C15 /* enc_entropy_coder.cc */; };
 		323E1F532B88989F001C4C15 /* splines.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1B9A2B88989E001C4C15 /* splines.cc */; };
 		323E1F542B88989F001C4C15 /* dec_group.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1B9B2B88989E001C4C15 /* dec_group.h */; };
@@ -297,7 +296,6 @@
 		323E1F982B88989F001C4C15 /* enc_jpeg_data_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1BE32B88989E001C4C15 /* enc_jpeg_data_reader.cc */; };
 		323E1F992B88989F001C4C15 /* enc_external_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1BE42B88989E001C4C15 /* enc_external_image.cc */; };
 		323E1F9A2B88989F001C4C15 /* coeff_order_fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1BE52B88989E001C4C15 /* coeff_order_fwd.h */; };
-		323E1F9B2B88989F001C4C15 /* test_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1BE62B88989E001C4C15 /* test_image.h */; };
 		323E1F9C2B88989F001C4C15 /* toc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1BE72B88989E001C4C15 /* toc.cc */; };
 		323E1F9D2B88989F001C4C15 /* icc_codec.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1BE82B88989E001C4C15 /* icc_codec.h */; };
 		323E1F9E2B88989F001C4C15 /* dct_block-inl.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1BE92B88989E001C4C15 /* dct_block-inl.h */; };
@@ -404,14 +402,14 @@
 		32CE8D1C2B8C692500B4E1F4 /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8CB02B8C692500B4E1F4 /* decode.c */; };
 		32CE8D1D2B8C692500B4E1F4 /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8CB12B8C692500B4E1F4 /* huffman.c */; };
 		32CE8D1E2B8C692500B4E1F4 /* bit_reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8CB22B8C692500B4E1F4 /* bit_reader.c */; };
-		32CE8D222B8C69EB00B4E1F4 /* libbrotli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE8B242B8C691700B4E1F4 /* libbrotli.a */; platformFilter = ios; };
+		32CE8D222B8C69EB00B4E1F4 /* libbrotli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE8B242B8C691700B4E1F4 /* libbrotli.a */; };
 		32CE8E242B8C6A5600B4E1F4 /* aligned_allocator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8D322B8C6A5500B4E1F4 /* aligned_allocator.cc */; };
 		32CE8E252B8C6A5600B4E1F4 /* per_target.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8D352B8C6A5500B4E1F4 /* per_target.cc */; };
 		32CE8E272B8C6A5600B4E1F4 /* nanobenchmark.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8D372B8C6A5500B4E1F4 /* nanobenchmark.cc */; };
 		32CE8E532B8C6A5600B4E1F4 /* print.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8D6C2B8C6A5500B4E1F4 /* print.cc */; };
 		32CE8E7D2B8C6A5600B4E1F4 /* timer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8DBA2B8C6A5600B4E1F4 /* timer.cc */; };
 		32CE8E842B8C6A5600B4E1F4 /* targets.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8DDB2B8C6A5600B4E1F4 /* targets.cc */; };
-		32CE8E862B8C6A7E00B4E1F4 /* libhwy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE8D272B8C6A0C00B4E1F4 /* libhwy.a */; platformFilter = ios; };
+		32CE8E862B8C6A7E00B4E1F4 /* libhwy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE8D272B8C6A0C00B4E1F4 /* libhwy.a */; };
 		32CE8FFB2B8C6B4200B4E1F4 /* cmsps2.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8FC02B8C6B4200B4E1F4 /* cmsps2.c */; };
 		32CE8FFC2B8C6B4200B4E1F4 /* cmstypes.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8FC12B8C6B4200B4E1F4 /* cmstypes.c */; };
 		32CE8FFD2B8C6B4200B4E1F4 /* cmscgats.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8FC22B8C6B4200B4E1F4 /* cmscgats.c */; };
@@ -438,7 +436,7 @@
 		32CE90122B8C6B4200B4E1F4 /* cmsmd5.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8FDB2B8C6B4200B4E1F4 /* cmsmd5.c */; };
 		32CE90132B8C6B4200B4E1F4 /* cmsintrp.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8FDC2B8C6B4200B4E1F4 /* cmsintrp.c */; };
 		32CE90142B8C6B4200B4E1F4 /* cmshalf.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8FDD2B8C6B4200B4E1F4 /* cmshalf.c */; };
-		32CE90152B8C6B7900B4E1F4 /* liblcms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE8E8B2B8C6B2D00B4E1F4 /* liblcms.a */; platformFilter = ios; };
+		32CE90152B8C6B7900B4E1F4 /* liblcms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE8E8B2B8C6B2D00B4E1F4 /* liblcms.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -718,7 +716,6 @@
 		323E1B952B88989E001C4C15 /* fast_dct8-inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fast_dct8-inl.h"; sourceTree = "<group>"; };
 		323E1B962B88989E001C4C15 /* quantizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantizer.h; sourceTree = "<group>"; };
 		323E1B972B88989E001C4C15 /* dec_xyb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dec_xyb.cc; sourceTree = "<group>"; };
-		323E1B982B88989E001C4C15 /* test_image.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_image.cc; sourceTree = "<group>"; };
 		323E1B992B88989E001C4C15 /* enc_entropy_coder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enc_entropy_coder.cc; sourceTree = "<group>"; };
 		323E1B9A2B88989E001C4C15 /* splines.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = splines.cc; sourceTree = "<group>"; };
 		323E1B9B2B88989E001C4C15 /* dec_group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_group.h; sourceTree = "<group>"; };
@@ -786,7 +783,6 @@
 		323E1BE32B88989E001C4C15 /* enc_jpeg_data_reader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enc_jpeg_data_reader.cc; sourceTree = "<group>"; };
 		323E1BE42B88989E001C4C15 /* enc_external_image.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enc_external_image.cc; sourceTree = "<group>"; };
 		323E1BE52B88989E001C4C15 /* coeff_order_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coeff_order_fwd.h; sourceTree = "<group>"; };
-		323E1BE62B88989E001C4C15 /* test_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_image.h; sourceTree = "<group>"; };
 		323E1BE72B88989E001C4C15 /* toc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = toc.cc; sourceTree = "<group>"; };
 		323E1BE82B88989E001C4C15 /* icc_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icc_codec.h; sourceTree = "<group>"; };
 		323E1BE92B88989E001C4C15 /* dct_block-inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dct_block-inl.h"; sourceTree = "<group>"; };
@@ -1262,7 +1258,6 @@
 				323E1B952B88989E001C4C15 /* fast_dct8-inl.h */,
 				323E1B962B88989E001C4C15 /* quantizer.h */,
 				323E1B972B88989E001C4C15 /* dec_xyb.cc */,
-				323E1B982B88989E001C4C15 /* test_image.cc */,
 				323E1B992B88989E001C4C15 /* enc_entropy_coder.cc */,
 				323E1B9A2B88989E001C4C15 /* splines.cc */,
 				323E1B9B2B88989E001C4C15 /* dec_group.h */,
@@ -1287,7 +1282,6 @@
 				323E1BD52B88989E001C4C15 /* jpeg */,
 				323E1BE42B88989E001C4C15 /* enc_external_image.cc */,
 				323E1BE52B88989E001C4C15 /* coeff_order_fwd.h */,
-				323E1BE62B88989E001C4C15 /* test_image.h */,
 				323E1BE72B88989E001C4C15 /* toc.cc */,
 				323E1BE82B88989E001C4C15 /* icc_codec.h */,
 				323E1BE92B88989E001C4C15 /* dct_block-inl.h */,
@@ -1876,7 +1870,6 @@
 				323E1FC52B88989F001C4C15 /* fast_math-inl.h in Headers */,
 				323E1FA92B88989F001C4C15 /* dec_huffman.h in Headers */,
 				323E1F1D2B88989F001C4C15 /* loop_filter.h in Headers */,
-				323E1F9B2B88989F001C4C15 /* test_image.h in Headers */,
 				323E1FBC2B88989F001C4C15 /* os_macros.h in Headers */,
 				323E1FDF2B88989F001C4C15 /* types.h in Headers */,
 				323E1F412B88989F001C4C15 /* fast_dct32-inl.h in Headers */,
@@ -2284,7 +2277,6 @@
 				323E1E7C2B88989E001C4C15 /* stage_spot.cc in Sources */,
 				323E1F612B88989F001C4C15 /* encoding.cc in Sources */,
 				323E1EC32B88989F001C4C15 /* enc_aux_out.cc in Sources */,
-				323E1F512B88989F001C4C15 /* test_image.cc in Sources */,
 				323E1ECA2B88989F001C4C15 /* enc_cluster.cc in Sources */,
 				323E203E2B88989F001C4C15 /* thread_parallel_runner.cc in Sources */,
 				323E1E9E2B88989F001C4C15 /* dec_group.cc in Sources */,
@@ -2460,19 +2452,16 @@
 /* Begin PBXTargetDependency section */
 		32CE90172B8C6C9800B4E1F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			platformFilter = ios;
 			target = 32CE8B232B8C691700B4E1F4 /* brotli */;
 			targetProxy = 32CE90162B8C6C9800B4E1F4 /* PBXContainerItemProxy */;
 		};
 		32CE90192B8C6C9800B4E1F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			platformFilter = ios;
 			target = 32CE8D262B8C6A0C00B4E1F4 /* hwy */;
 			targetProxy = 32CE90182B8C6C9800B4E1F4 /* PBXContainerItemProxy */;
 		};
 		32CE901B2B8C6C9800B4E1F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			platformFilter = ios;
 			target = 32CE8E8A2B8C6B2D00B4E1F4 /* lcms */;
 			targetProxy = 32CE901A2B8C6C9800B4E1F4 /* PBXContainerItemProxy */;
 		};
@@ -2532,14 +2521,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator watchsimulator watchos appletvsimulator appletvos xrsimulator xros";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,5,6,7";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -2590,12 +2587,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator watchsimulator watchos appletvsimulator appletvos xrsimulator xros";
 				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,5,6,7";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -2625,7 +2630,6 @@
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -2634,11 +2638,8 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				OTHER_CFLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
@@ -2651,13 +2652,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WARNING_CFLAGS = "-Wno-shorten-64-to-32";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -2683,7 +2680,6 @@
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -2692,11 +2688,8 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				OTHER_CFLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
@@ -2709,13 +2702,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WARNING_CFLAGS = "-Wno-shorten-64-to-32";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -2724,16 +2713,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libjxl/third_party/brotli/c/include";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -2742,17 +2724,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libjxl/third_party/brotli/c/include";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -2761,16 +2736,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libjxl/third_party/highway/";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -2779,17 +2747,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libjxl/third_party/highway/";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -2798,16 +2759,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libjxl/third_party/lcms/include";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -2816,17 +2770,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/libjxl/third_party/lcms/include";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
