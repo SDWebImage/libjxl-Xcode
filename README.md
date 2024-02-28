@@ -1,19 +1,26 @@
 # libjxl + Xcode
 
 A wrapper for [libjxl](https://github.com/libjxl/libjxl) + Xcode project.
-This enables Carthage support
-This also contains the Swift Package Manager support
+
+This enables Carthage support.
+
+This also contains the Swift Package Manager support.
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SDWebImage/libjxl-Xcode)
 [![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
-## Requirements
+## Platforms
 
 + iOS 9+
 + macOS 10.11+
 + tvOS 9.0+
 + watchOS 2.0+
 + visionOS 1.0+
+
+## Notes
+
+1. v0.10.0 will compile failed on watchOS simulator because of missing C++ thread_local(See: https://github.com/libjxl/libjxl/issues/3345). Build watchOS armv7k/arm64_32 and test on device instead.
+
 
 ## Installation
 
@@ -35,7 +42,7 @@ github "SDWebImage/libjxl-Xcode"
 
 ### SwiftPM
 
-Libjxl is available through [Swift Package Manager](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg).
+Libjxl is available through [Swift Package Manager](https://swift.org/documentation/package-manager/).
 
 ```swift
 let package = Package(
