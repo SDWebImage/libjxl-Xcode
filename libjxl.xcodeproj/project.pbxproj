@@ -347,30 +347,10 @@
 		323E1FD42B88989F001C4C15 /* encode.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1C202B88989E001C4C15 /* encode.cc */; };
 		323E1FD52B88989F001C4C15 /* dec_modular.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1C212B88989E001C4C15 /* dec_modular.cc */; };
 		323E1FD62B88989F001C4C15 /* nothing.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1C222B88989E001C4C15 /* nothing.cc */; };
-		323E1FDC2B88989F001C4C15 /* resizable_parallel_runner_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C2A2B88989E001C4C15 /* resizable_parallel_runner_cxx.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FDD2B88989F001C4C15 /* cms.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C2B2B88989E001C4C15 /* cms.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FDE2B88989F001C4C15 /* color_encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C2C2B88989E001C4C15 /* color_encoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FDF2B88989F001C4C15 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C2D2B88989E001C4C15 /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE02B88989F001C4C15 /* parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C2E2B88989E001C4C15 /* parallel_runner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE12B88989F001C4C15 /* memory_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C2F2B88989E001C4C15 /* memory_manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE22B88989F001C4C15 /* cms_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C302B88989E001C4C15 /* cms_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE32B88989F001C4C15 /* encode_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C312B88989E001C4C15 /* encode_cxx.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE42B88989F001C4C15 /* codestream_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C322B88989E001C4C15 /* codestream_header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE52B88989F001C4C15 /* thread_parallel_runner_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C332B88989E001C4C15 /* thread_parallel_runner_cxx.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE62B88989F001C4C15 /* thread_parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C342B88989E001C4C15 /* thread_parallel_runner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE72B88989F001C4C15 /* resizable_parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C352B88989E001C4C15 /* resizable_parallel_runner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE82B88989F001C4C15 /* decode_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C362B88989E001C4C15 /* decode_cxx.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FE92B88989F001C4C15 /* stats.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C372B88989E001C4C15 /* stats.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FEA2B88989F001C4C15 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C382B88989E001C4C15 /* encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E1FEB2B88989F001C4C15 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C392B88989E001C4C15 /* decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		323E203C2B88989F001C4C15 /* thread_parallel_runner_internal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1C8C2B88989E001C4C15 /* thread_parallel_runner_internal.cc */; };
 		323E203D2B88989F001C4C15 /* thread_parallel_runner_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1C8D2B88989E001C4C15 /* thread_parallel_runner_internal.h */; };
 		323E203E2B88989F001C4C15 /* thread_parallel_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1C8E2B88989E001C4C15 /* thread_parallel_runner.cc */; };
 		323E20402B88989F001C4C15 /* resizable_parallel_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1C902B88989E001C4C15 /* resizable_parallel_runner.cc */; };
-		323E4E262B88A39D001C4C15 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E4E222B88A39D001C4C15 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E4E272B88A39D001C4C15 /* jxl_cms_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E4E232B88A39D001C4C15 /* jxl_cms_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E4E282B88A39D001C4C15 /* jxl_threads_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E4E242B88A39D001C4C15 /* jxl_threads_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		323E4E292B88A39D001C4C15 /* jxl_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E4E252B88A39D001C4C15 /* jxl_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		325FD3D12B8F47E300DCAD9A /* jxl.h in Headers */ = {isa = PBXBuildFile; fileRef = 325FD3D02B8F47E300DCAD9A /* jxl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32CE8D002B8C692500B4E1F4 /* dictionary_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8C622B8C692500B4E1F4 /* dictionary_hash.c */; };
 		32CE8D012B8C692500B4E1F4 /* backward_references_hq.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8C632B8C692500B4E1F4 /* backward_references_hq.c */; };
@@ -438,6 +418,22 @@
 		32CE90132B8C6B4200B4E1F4 /* cmsintrp.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8FDC2B8C6B4200B4E1F4 /* cmsintrp.c */; };
 		32CE90142B8C6B4200B4E1F4 /* cmshalf.c in Sources */ = {isa = PBXBuildFile; fileRef = 32CE8FDD2B8C6B4200B4E1F4 /* cmshalf.c */; };
 		32CE90152B8C6B7900B4E1F4 /* liblcms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CE8E8B2B8C6B2D00B4E1F4 /* liblcms.a */; };
+		32F79F7A2B8F6F700058FF80 /* cms.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F6A2B8F6F700058FF80 /* cms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F7B2B8F6F700058FF80 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F6B2B8F6F700058FF80 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F7C2B8F6F700058FF80 /* jxl_cms_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F6C2B8F6F700058FF80 /* jxl_cms_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F7D2B8F6F700058FF80 /* color_encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F6D2B8F6F700058FF80 /* color_encoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F7E2B8F6F700058FF80 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F6E2B8F6F700058FF80 /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F7F2B8F6F700058FF80 /* parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F6F2B8F6F700058FF80 /* parallel_runner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F802B8F6F700058FF80 /* jxl_threads_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F702B8F6F700058FF80 /* jxl_threads_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F812B8F6F700058FF80 /* memory_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F712B8F6F700058FF80 /* memory_manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F822B8F6F700058FF80 /* cms_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F722B8F6F700058FF80 /* cms_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F832B8F6F700058FF80 /* codestream_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F732B8F6F700058FF80 /* codestream_header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F842B8F6F700058FF80 /* jxl_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F742B8F6F700058FF80 /* jxl_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F852B8F6F700058FF80 /* thread_parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F752B8F6F700058FF80 /* thread_parallel_runner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F862B8F6F700058FF80 /* resizable_parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F762B8F6F700058FF80 /* resizable_parallel_runner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F872B8F6F700058FF80 /* stats.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F772B8F6F700058FF80 /* stats.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F882B8F6F700058FF80 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F782B8F6F700058FF80 /* encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F79F892B8F6F700058FF80 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F79F792B8F6F700058FF80 /* decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -835,30 +831,10 @@
 		323E1C202B88989E001C4C15 /* encode.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encode.cc; sourceTree = "<group>"; };
 		323E1C212B88989E001C4C15 /* dec_modular.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dec_modular.cc; sourceTree = "<group>"; };
 		323E1C222B88989E001C4C15 /* nothing.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nothing.cc; sourceTree = "<group>"; };
-		323E1C2A2B88989E001C4C15 /* resizable_parallel_runner_cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resizable_parallel_runner_cxx.h; sourceTree = "<group>"; };
-		323E1C2B2B88989E001C4C15 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
-		323E1C2C2B88989E001C4C15 /* color_encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color_encoding.h; sourceTree = "<group>"; };
-		323E1C2D2B88989E001C4C15 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
-		323E1C2E2B88989E001C4C15 /* parallel_runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parallel_runner.h; sourceTree = "<group>"; };
-		323E1C2F2B88989E001C4C15 /* memory_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_manager.h; sourceTree = "<group>"; };
-		323E1C302B88989E001C4C15 /* cms_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms_interface.h; sourceTree = "<group>"; };
-		323E1C312B88989E001C4C15 /* encode_cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode_cxx.h; sourceTree = "<group>"; };
-		323E1C322B88989E001C4C15 /* codestream_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codestream_header.h; sourceTree = "<group>"; };
-		323E1C332B88989E001C4C15 /* thread_parallel_runner_cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_parallel_runner_cxx.h; sourceTree = "<group>"; };
-		323E1C342B88989E001C4C15 /* thread_parallel_runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_parallel_runner.h; sourceTree = "<group>"; };
-		323E1C352B88989E001C4C15 /* resizable_parallel_runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resizable_parallel_runner.h; sourceTree = "<group>"; };
-		323E1C362B88989E001C4C15 /* decode_cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode_cxx.h; sourceTree = "<group>"; };
-		323E1C372B88989E001C4C15 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
-		323E1C382B88989E001C4C15 /* encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
-		323E1C392B88989E001C4C15 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
 		323E1C8C2B88989E001C4C15 /* thread_parallel_runner_internal.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread_parallel_runner_internal.cc; sourceTree = "<group>"; };
 		323E1C8D2B88989E001C4C15 /* thread_parallel_runner_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_parallel_runner_internal.h; sourceTree = "<group>"; };
 		323E1C8E2B88989E001C4C15 /* thread_parallel_runner.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread_parallel_runner.cc; sourceTree = "<group>"; };
 		323E1C902B88989E001C4C15 /* resizable_parallel_runner.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = resizable_parallel_runner.cc; sourceTree = "<group>"; };
-		323E4E222B88A39D001C4C15 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
-		323E4E232B88A39D001C4C15 /* jxl_cms_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jxl_cms_export.h; sourceTree = "<group>"; };
-		323E4E242B88A39D001C4C15 /* jxl_threads_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jxl_threads_export.h; sourceTree = "<group>"; };
-		323E4E252B88A39D001C4C15 /* jxl_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jxl_export.h; sourceTree = "<group>"; };
 		325FD3D02B8F47E300DCAD9A /* jxl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jxl.h; sourceTree = "<group>"; };
 		32C268362B88987300CA29AE /* jxl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jxl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CE8B242B8C691700B4E1F4 /* libbrotli.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbrotli.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1025,6 +1001,22 @@
 		32CE8FDB2B8C6B4200B4E1F4 /* cmsmd5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsmd5.c; sourceTree = "<group>"; };
 		32CE8FDC2B8C6B4200B4E1F4 /* cmsintrp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsintrp.c; sourceTree = "<group>"; };
 		32CE8FDD2B8C6B4200B4E1F4 /* cmshalf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmshalf.c; sourceTree = "<group>"; };
+		32F79F6A2B8F6F700058FF80 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		32F79F6B2B8F6F700058FF80 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		32F79F6C2B8F6F700058FF80 /* jxl_cms_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jxl_cms_export.h; sourceTree = "<group>"; };
+		32F79F6D2B8F6F700058FF80 /* color_encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color_encoding.h; sourceTree = "<group>"; };
+		32F79F6E2B8F6F700058FF80 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		32F79F6F2B8F6F700058FF80 /* parallel_runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parallel_runner.h; sourceTree = "<group>"; };
+		32F79F702B8F6F700058FF80 /* jxl_threads_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jxl_threads_export.h; sourceTree = "<group>"; };
+		32F79F712B8F6F700058FF80 /* memory_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_manager.h; sourceTree = "<group>"; };
+		32F79F722B8F6F700058FF80 /* cms_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms_interface.h; sourceTree = "<group>"; };
+		32F79F732B8F6F700058FF80 /* codestream_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codestream_header.h; sourceTree = "<group>"; };
+		32F79F742B8F6F700058FF80 /* jxl_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jxl_export.h; sourceTree = "<group>"; };
+		32F79F752B8F6F700058FF80 /* thread_parallel_runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_parallel_runner.h; sourceTree = "<group>"; };
+		32F79F762B8F6F700058FF80 /* resizable_parallel_runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resizable_parallel_runner.h; sourceTree = "<group>"; };
+		32F79F772B8F6F700058FF80 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
+		32F79F782B8F6F700058FF80 /* encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
+		32F79F792B8F6F700058FF80 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1076,7 +1068,6 @@
 			children = (
 				323E1A822B88989E001C4C15 /* jxl */,
 				323E1C222B88989E001C4C15 /* nothing.cc */,
-				323E1C282B88989E001C4C15 /* include */,
 				323E1C8A2B88989E001C4C15 /* threads */,
 			);
 			path = lib;
@@ -1492,37 +1483,6 @@
 			path = base;
 			sourceTree = "<group>";
 		};
-		323E1C282B88989E001C4C15 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				323E1C292B88989E001C4C15 /* jxl */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		323E1C292B88989E001C4C15 /* jxl */ = {
-			isa = PBXGroup;
-			children = (
-				323E1C2A2B88989E001C4C15 /* resizable_parallel_runner_cxx.h */,
-				323E1C2B2B88989E001C4C15 /* cms.h */,
-				323E1C2C2B88989E001C4C15 /* color_encoding.h */,
-				323E1C2D2B88989E001C4C15 /* types.h */,
-				323E1C2E2B88989E001C4C15 /* parallel_runner.h */,
-				323E1C2F2B88989E001C4C15 /* memory_manager.h */,
-				323E1C302B88989E001C4C15 /* cms_interface.h */,
-				323E1C312B88989E001C4C15 /* encode_cxx.h */,
-				323E1C322B88989E001C4C15 /* codestream_header.h */,
-				323E1C332B88989E001C4C15 /* thread_parallel_runner_cxx.h */,
-				323E1C342B88989E001C4C15 /* thread_parallel_runner.h */,
-				323E1C352B88989E001C4C15 /* resizable_parallel_runner.h */,
-				323E1C362B88989E001C4C15 /* decode_cxx.h */,
-				323E1C372B88989E001C4C15 /* stats.h */,
-				323E1C382B88989E001C4C15 /* encode.h */,
-				323E1C392B88989E001C4C15 /* decode.h */,
-			);
-			path = jxl;
-			sourceTree = "<group>";
-		};
 		323E1C8A2B88989E001C4C15 /* threads */ = {
 			isa = PBXGroup;
 			children = (
@@ -1551,25 +1511,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		323E4E202B88A39D001C4C15 /* generate */ = {
-			isa = PBXGroup;
-			children = (
-				323E4E212B88A39D001C4C15 /* jxl */,
-			);
-			path = generate;
-			sourceTree = "<group>";
-		};
-		323E4E212B88A39D001C4C15 /* jxl */ = {
-			isa = PBXGroup;
-			children = (
-				323E4E222B88A39D001C4C15 /* version.h */,
-				323E4E232B88A39D001C4C15 /* jxl_cms_export.h */,
-				323E4E242B88A39D001C4C15 /* jxl_threads_export.h */,
-				323E4E252B88A39D001C4C15 /* jxl_export.h */,
-			);
-			path = jxl;
-			sourceTree = "<group>";
-		};
 		325FD3CF2B8F47E300DCAD9A /* Xcode */ = {
 			isa = PBXGroup;
 			children = (
@@ -1581,8 +1522,8 @@
 		32C2682C2B88987300CA29AE = {
 			isa = PBXGroup;
 			children = (
+				32F79F682B8F6F700058FF80 /* include */,
 				323E19182B88989E001C4C15 /* libjxl */,
-				323E4E202B88A39D001C4C15 /* generate */,
 				325FD3CF2B8F47E300DCAD9A /* Xcode */,
 				32C268372B88987300CA29AE /* Products */,
 				323E4DE22B889F6F001C4C15 /* Frameworks */,
@@ -1862,6 +1803,37 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		32F79F682B8F6F700058FF80 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				32F79F692B8F6F700058FF80 /* jxl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		32F79F692B8F6F700058FF80 /* jxl */ = {
+			isa = PBXGroup;
+			children = (
+				32F79F6A2B8F6F700058FF80 /* cms.h */,
+				32F79F6B2B8F6F700058FF80 /* version.h */,
+				32F79F6C2B8F6F700058FF80 /* jxl_cms_export.h */,
+				32F79F6D2B8F6F700058FF80 /* color_encoding.h */,
+				32F79F6E2B8F6F700058FF80 /* types.h */,
+				32F79F6F2B8F6F700058FF80 /* parallel_runner.h */,
+				32F79F702B8F6F700058FF80 /* jxl_threads_export.h */,
+				32F79F712B8F6F700058FF80 /* memory_manager.h */,
+				32F79F722B8F6F700058FF80 /* cms_interface.h */,
+				32F79F732B8F6F700058FF80 /* codestream_header.h */,
+				32F79F742B8F6F700058FF80 /* jxl_export.h */,
+				32F79F752B8F6F700058FF80 /* thread_parallel_runner.h */,
+				32F79F762B8F6F700058FF80 /* resizable_parallel_runner.h */,
+				32F79F772B8F6F700058FF80 /* stats.h */,
+				32F79F782B8F6F700058FF80 /* encode.h */,
+				32F79F792B8F6F700058FF80 /* decode.h */,
+			);
+			path = jxl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1882,10 +1854,9 @@
 				323E1FA92B88989F001C4C15 /* dec_huffman.h in Headers */,
 				323E1F1D2B88989F001C4C15 /* loop_filter.h in Headers */,
 				323E1FBC2B88989F001C4C15 /* os_macros.h in Headers */,
-				323E1FDF2B88989F001C4C15 /* types.h in Headers */,
+				32F79F802B8F6F700058FF80 /* jxl_threads_export.h in Headers */,
 				323E1F412B88989F001C4C15 /* fast_dct32-inl.h in Headers */,
 				323E1EB92B88989F001C4C15 /* fields.h in Headers */,
-				323E1FE52B88989F001C4C15 /* thread_parallel_runner_cxx.h in Headers */,
 				323E1E542B88989E001C4C15 /* noise.h in Headers */,
 				323E1EA52B88989F001C4C15 /* ans_common.h in Headers */,
 				323E1EA72B88989F001C4C15 /* test_utils.h in Headers */,
@@ -1898,25 +1869,21 @@
 				323E1FB92B88989F001C4C15 /* iaca.h in Headers */,
 				323E1F5E2B88989F001C4C15 /* enc_encoding.h in Headers */,
 				323E1F1B2B88989F001C4C15 /* fast_dct.h in Headers */,
-				323E1FEA2B88989F001C4C15 /* encode.h in Headers */,
 				323E1EB02B88989F001C4C15 /* color_encoding_internal.h in Headers */,
 				323E1E812B88989E001C4C15 /* stage_spot.h in Headers */,
 				323E1F4F2B88989F001C4C15 /* quantizer.h in Headers */,
 				323E1EF62B88989F001C4C15 /* dec_bit_reader.h in Headers */,
+				32F79F822B8F6F700058FF80 /* cms_interface.h in Headers */,
 				323E1F9E2B88989F001C4C15 /* dct_block-inl.h in Headers */,
 				323E1FC42B88989F001C4C15 /* arch_macros.h in Headers */,
-				323E1FDD2B88989F001C4C15 /* cms.h in Headers */,
 				323E1E612B88989E001C4C15 /* dec_transforms-inl.h in Headers */,
 				323E1E562B88989E001C4C15 /* huffman_table.h in Headers */,
-				323E4E272B88A39D001C4C15 /* jxl_cms_export.h in Headers */,
 				323E1F712B88989F001C4C15 /* enc_rct.h in Headers */,
 				323E1E512B88989E001C4C15 /* enc_comparator.h in Headers */,
-				323E1FE72B88989F001C4C15 /* resizable_parallel_runner.h in Headers */,
 				323E1F212B88989F001C4C15 /* common.h in Headers */,
 				323E1FC12B88989F001C4C15 /* common.h in Headers */,
 				323E1EBA2B88989F001C4C15 /* enc_external_image.h in Headers */,
 				323E1E592B88989E001C4C15 /* dec_external_image.h in Headers */,
-				323E1FDE2B88989F001C4C15 /* color_encoding.h in Headers */,
 				323E1F262B88989F001C4C15 /* enc_context_map.h in Headers */,
 				323E1F482B88989F001C4C15 /* patch_dictionary_internal.h in Headers */,
 				323E1EFB2B88989F001C4C15 /* fast_dct256-inl.h in Headers */,
@@ -1936,15 +1903,12 @@
 				323E1EAD2B88989F001C4C15 /* enc_heuristics.h in Headers */,
 				323E1F342B88989F001C4C15 /* enc_coeff_order.h in Headers */,
 				323E1EF72B88989F001C4C15 /* dec_xyb.h in Headers */,
-				323E1FE32B88989F001C4C15 /* encode_cxx.h in Headers */,
 				323E1F322B88989F001C4C15 /* tone_mapping.h in Headers */,
 				323E1F052B88989F001C4C15 /* enc_transforms-inl.h in Headers */,
-				323E1FEB2B88989F001C4C15 /* decode.h in Headers */,
 				323E1F4E2B88989F001C4C15 /* fast_dct8-inl.h in Headers */,
-				323E1FE92B88989F001C4C15 /* stats.h in Headers */,
-				323E1FE82B88989F001C4C15 /* decode_cxx.h in Headers */,
 				323E1F012B88989F001C4C15 /* enc_linalg.h in Headers */,
 				323E1EDC2B88989F001C4C15 /* enc_ans.h in Headers */,
+				32F79F832B8F6F700058FF80 /* codestream_header.h in Headers */,
 				323E1E4A2B88989E001C4C15 /* enc_ans_params.h in Headers */,
 				323E1EE02B88989F001C4C15 /* fake_parallel_runner_testonly.h in Headers */,
 				323E1EA42B88989F001C4C15 /* dec_group_border.h in Headers */,
@@ -1954,13 +1918,14 @@
 				323E1E8C2B88989E001C4C15 /* enc_splines.h in Headers */,
 				323E1F9A2B88989F001C4C15 /* coeff_order_fwd.h in Headers */,
 				323E1EC72B88989F001C4C15 /* memory_manager_internal.h in Headers */,
-				323E4E262B88A39D001C4C15 /* version.h in Headers */,
 				323E1E8A2B88989E001C4C15 /* stage_ycbcr.h in Headers */,
 				323E1EEF2B88989F001C4C15 /* dec_frame.h in Headers */,
 				323E1FCD2B88989F001C4C15 /* bits.h in Headers */,
 				323E1EBD2B88989F001C4C15 /* transpose-inl.h in Headers */,
 				323E1E7D2B88989E001C4C15 /* stage_xyb.h in Headers */,
 				323E1FC32B88989F001C4C15 /* sanitizer_definitions.h in Headers */,
+				32F79F842B8F6F700058FF80 /* jxl_export.h in Headers */,
+				32F79F812B8F6F700058FF80 /* memory_manager.h in Headers */,
 				323E1F6A2B88989F001C4C15 /* rct.h in Headers */,
 				323E1ECF2B88989F001C4C15 /* dec_xyb-inl.h in Headers */,
 				323E1E702B88989E001C4C15 /* stage_tone_mapping.h in Headers */,
@@ -1975,28 +1940,27 @@
 				323E1E532B88989E001C4C15 /* enc_dot_dictionary.h in Headers */,
 				323E1E472B88989E001C4C15 /* convolve-inl.h in Headers */,
 				323E1F552B88989F001C4C15 /* ac_context.h in Headers */,
+				32F79F862B8F6F700058FF80 /* resizable_parallel_runner.h in Headers */,
 				323E1F032B88989F001C4C15 /* box_content_decoder.h in Headers */,
 				323E1F722B88989F001C4C15 /* squeeze.h in Headers */,
-				323E1FE12B88989F001C4C15 /* memory_manager.h in Headers */,
 				323E1E402B88989E001C4C15 /* testing.h in Headers */,
 				323E1F312B88989F001C4C15 /* transfer_functions-inl.h in Headers */,
+				32F79F7F2B8F6F700058FF80 /* parallel_runner.h in Headers */,
 				323E1E482B88989E001C4C15 /* enc_patch_dictionary.h in Headers */,
 				323E1EC82B88989F001C4C15 /* padded_bytes.h in Headers */,
+				32F79F852B8F6F700058FF80 /* thread_parallel_runner.h in Headers */,
 				323E1FD12B88989F001C4C15 /* dct_util.h in Headers */,
 				323E1F542B88989F001C4C15 /* dec_group.h in Headers */,
 				323E1EE62B88989F001C4C15 /* enc_icc_codec.h in Headers */,
-				323E4E292B88A39D001C4C15 /* jxl_export.h in Headers */,
 				323E1F282B88989F001C4C15 /* encode_internal.h in Headers */,
 				323E1EDE2B88989F001C4C15 /* sanitizers.h in Headers */,
 				323E1F042B88989F001C4C15 /* dec_cache.h in Headers */,
-				323E1FE22B88989F001C4C15 /* cms_interface.h in Headers */,
 				323E1F1C2B88989F001C4C15 /* dec_ans.h in Headers */,
 				323E1F7E2B88989F001C4C15 /* image_bundle.h in Headers */,
 				323E1ED42B88989F001C4C15 /* quantizer-inl.h in Headers */,
 				323E1F2B2B88989F001C4C15 /* color_encoding_cms.h in Headers */,
 				323E1E9D2B88989F001C4C15 /* dct_for_test.h in Headers */,
 				323E1F242B88989F001C4C15 /* enc_huffman.h in Headers */,
-				323E1FE02B88989F001C4C15 /* parallel_runner.h in Headers */,
 				323E1F9F2B88989F001C4C15 /* dct-inl.h in Headers */,
 				323E1F962B88989F001C4C15 /* enc_jpeg_data_reader.h in Headers */,
 				323E1ED02B88989F001C4C15 /* enc_ac_strategy.h in Headers */,
@@ -2010,10 +1974,11 @@
 				323E1E892B88989E001C4C15 /* render_pipeline.h in Headers */,
 				323E1EF12B88989F001C4C15 /* enc_bit_writer.h in Headers */,
 				323E1F452B88989F001C4C15 /* image_ops.h in Headers */,
+				32F79F7C2B8F6F700058FF80 /* jxl_cms_export.h in Headers */,
 				323E1FCB2B88989F001C4C15 /* exif.h in Headers */,
+				32F79F7A2B8F6F700058FF80 /* cms.h in Headers */,
 				323E1F362B88989F001C4C15 /* codec_in_out.h in Headers */,
 				323E1E912B88989E001C4C15 /* enc_modular.h in Headers */,
-				323E1FDC2B88989F001C4C15 /* resizable_parallel_runner_cxx.h in Headers */,
 				323E1FCC2B88989F001C4C15 /* random.h in Headers */,
 				323E1F8D2B88989F001C4C15 /* dec_jpeg_serialization_state.h in Headers */,
 				323E1E852B88989E001C4C15 /* stage_chroma_upsampling.h in Headers */,
@@ -2034,18 +1999,20 @@
 				323E1EF32B88989F001C4C15 /* enc_cluster.h in Headers */,
 				323E1F382B88989F001C4C15 /* luminance.h in Headers */,
 				323E1F462B88989F001C4C15 /* enc_chroma_from_luma.h in Headers */,
+				32F79F7B2B8F6F700058FF80 /* version.h in Headers */,
 				323E1E6D2B88989E001C4C15 /* stage_to_linear.h in Headers */,
 				323E1F0D2B88989F001C4C15 /* enc_xyb.h in Headers */,
 				323E1F642B88989F001C4C15 /* modular_image.h in Headers */,
 				323E1EA22B88989F001C4C15 /* lehmer_code.h in Headers */,
-				323E4E282B88A39D001C4C15 /* jxl_threads_export.h in Headers */,
 				323E1EFF2B88989F001C4C15 /* enc_butteraugli_comparator.h in Headers */,
+				32F79F882B8F6F700058FF80 /* encode.h in Headers */,
 				323E1F5B2B88989F001C4C15 /* enc_debug_tree.h in Headers */,
+				32F79F892B8F6F700058FF80 /* decode.h in Headers */,
 				323E1E9A2B88989F001C4C15 /* enc_aux_out.h in Headers */,
+				32F79F872B8F6F700058FF80 /* stats.h in Headers */,
 				323E1F002B88989F001C4C15 /* headers.h in Headers */,
 				323E1F6D2B88989F001C4C15 /* enc_squeeze.h in Headers */,
 				323E1F7D2B88989F001C4C15 /* enc_adaptive_quantization.h in Headers */,
-				323E1FE42B88989F001C4C15 /* codestream_header.h in Headers */,
 				323E1FCA2B88989F001C4C15 /* override.h in Headers */,
 				323E1EE32B88989F001C4C15 /* frame_dimensions.h in Headers */,
 				323E1E7F2B88989E001C4C15 /* stage_noise.h in Headers */,
@@ -2062,9 +2029,9 @@
 				323E1E7B2B88989E001C4C15 /* simple_render_pipeline.h in Headers */,
 				323E203D2B88989F001C4C15 /* thread_parallel_runner_internal.h in Headers */,
 				323E1ED22B88989F001C4C15 /* dec_modular.h in Headers */,
-				323E1FE62B88989F001C4C15 /* thread_parallel_runner.h in Headers */,
 				323E1F102B88989F001C4C15 /* compressed_dc.h in Headers */,
 				323E1F2F2B88989F001C4C15 /* jxl_cms_internal.h in Headers */,
+				32F79F7D2B8F6F700058FF80 /* color_encoding.h in Headers */,
 				323E1F742B88989F001C4C15 /* enc_palette.h in Headers */,
 				323E1EC12B88989F001C4C15 /* enc_ar_control_field.h in Headers */,
 				323E1F3D2B88989F001C4C15 /* fast_dct16-inl.h in Headers */,
@@ -2095,6 +2062,7 @@
 				323E1E582B88989E001C4C15 /* dec_patch_dictionary.h in Headers */,
 				323E1EC02B88989F001C4C15 /* alpha.h in Headers */,
 				323E1F112B88989F001C4C15 /* pack_signed.h in Headers */,
+				32F79F7E2B8F6F700058FF80 /* types.h in Headers */,
 				323E1FB42B88989F001C4C15 /* enc_fast_lossless.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

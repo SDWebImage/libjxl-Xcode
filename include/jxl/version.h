@@ -1,0 +1,1 @@
+../../generate/jxl/version.h

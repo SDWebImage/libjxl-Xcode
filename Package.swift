@@ -101,12 +101,9 @@ let package = Package(
                       "libjxl/lib/jxl/dec_external_image_gbench.cc",
                       "libjxl/lib/jxl/tf_gbench.cc"
                      ],
-            sources: ["libjxl/lib/jxl",
-                      "generate"
-            ],
-            publicHeadersPath: "libjxl/lib/include",
-            cSettings: [.headerSearchPath("generate"),
-                        .headerSearchPath("libjxl"),
+            sources: ["libjxl/lib/jxl"],
+            publicHeadersPath: "include",
+            cSettings: [.headerSearchPath("libjxl"),
                         .define("CMS_NO_REGISTER_KEYWORD")]
         ),
         .target(

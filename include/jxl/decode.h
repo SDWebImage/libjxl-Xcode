@@ -1,0 +1,1 @@
+../../libjxl/lib/include/jxl/decode.h

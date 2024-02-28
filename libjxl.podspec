@@ -55,11 +55,11 @@ JPEG XL image format reference implementation
     }
   end
 
-  s.subspec 'jxl' do |ss|
+  s.subspec 'libjxl' do |ss|
     ss.dependency 'libjxl/brotli'
     ss.dependency 'libjxl/lcms'
     ss.dependency 'libjxl/hwy'
-    ss.source_files = 'libjxl/lib/jxl/**/*.{c,cc}', 'generate/**/*.{c,cc}', 'libjxl/lib/include/**/*.h'
+    ss.source_files = 'libjxl/lib/jxl/**/*.{c,cc}', 'generate/**/*.{c,cc}', 'include/**/*.h'
     ss.exclude_files = [
     'libjxl/lib/jxl/**/*_test.{c,cc}', # gtest
     'libjxl/lib/jxl/dec_transforms_testonly.{c,cc}', # test
@@ -67,20 +67,15 @@ JPEG XL image format reference implementation
     'libjxl/lib/jxl/test_utils.{c,cc}', # test
     'libjxl/lib/jxl/**/*_gbench.{c,cc}' # gbench
     ]
-    ss.header_mappings_dir = 'libjxl/lib/include'
-    ss.public_header_files = 'libjxl/lib/include/**/*.h'
-    ss.compiler_flags = '-DCMS_NO_REGISTER_KEYWORD', '-fnew-alignment=8', '-fno-cxx-exceptions', '-fno-slp-vectorize', '-fno-vectorize'
+    ss.header_mappings_dir = 'include'
+    ss.public_header_files = 'include/**/*.h'
+    ss.compiler_flags = '-DCMS_NO_REGISTER_KEYWORD', '-fnew-alignment=8', '-fno-cxx-exceptions', '-fno-slp-vectorize', '-fno-vectorize', '-Wno-shorten-64-to-32'
     ss.pod_target_xcconfig = {
-      'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/libjxl/libjxl/lib/include ${PODS_ROOT}/libjxl/generate ${PODS_ROOT}/libjxl/libjxl'
+      'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/libjxl/include ${PODS_ROOT}/libjxl/libjxl'
     }
   end
 
-  # Copy generate headers into include folder
-  s.prepare_command = <<-CMD
-  cp -R './generate/jxl' './libjxl/lib/include/'
-                      CMD
-
-  s.default_subspecs = 'jxl'
+  s.default_subspecs = 'libjxl'
   s.libraries = 'c++'
-  s.preserve_paths = 'libjxl', 'generate'
+  s.preserve_paths = 'libjxl', 'generate', 'include'
 end
