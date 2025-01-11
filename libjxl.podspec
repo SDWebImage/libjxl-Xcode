@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libjxl'
-  s.version          = '0.10.0'
+  s.version          = '0.10.1'
   s.summary          = 'JPEG XL image format reference implementation'
 
 # This description is used to generate tags and improve search results.
