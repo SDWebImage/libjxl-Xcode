@@ -99,9 +99,11 @@ let package = Package(
                       "libjxl/lib/jxl/enc_external_image_gbench.cc",
                       "libjxl/lib/jxl/splines_gbench.cc",
                       "libjxl/lib/jxl/dec_external_image_gbench.cc",
-                      "libjxl/lib/jxl/tf_gbench.cc"
+                      "libjxl/lib/jxl/tf_gbench.cc",
+                      // threads test
+                      "libjxl/lib/threads/thread_parallel_runner_test.cc"
                      ],
-            sources: ["libjxl/lib/jxl"],
+            sources: ["libjxl/lib/jxl", "libjxl/lib/threads"],
             publicHeadersPath: "include",
             cSettings: [.headerSearchPath("libjxl"),
                         .define("CMS_NO_REGISTER_KEYWORD")]

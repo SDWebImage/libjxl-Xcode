@@ -59,13 +59,14 @@ JPEG XL image format reference implementation
     ss.dependency 'libjxl/brotli'
     ss.dependency 'libjxl/lcms'
     ss.dependency 'libjxl/hwy'
-    ss.source_files = 'libjxl/lib/jxl/**/*.{c,cc}', 'generate/**/*.{c,cc}', 'include/**/*.h'
+    ss.source_files = 'libjxl/lib/jxl/**/*.{c,cc}', 'libjxl/lib/threadsx/**/*.{c,cc}' 'generate/**/*.{c,cc}', 'include/**/*.h'
     ss.exclude_files = [
     'libjxl/lib/jxl/**/*_test.{c,cc}', # gtest
     'libjxl/lib/jxl/dec_transforms_testonly.{c,cc}', # test
     'libjxl/lib/jxl/test_image.{c,cc}', # test
     'libjxl/lib/jxl/test_utils.{c,cc}', # test
-    'libjxl/lib/jxl/**/*_gbench.{c,cc}' # gbench
+    'libjxl/lib/jxl/**/*_gbench.{c,cc}', # gbench
+    'libjxl/lib/threads/*_test.{c,cc}', # threads test
     ]
     ss.header_mappings_dir = 'include'
     ss.public_header_files = 'include/**/*.h'
