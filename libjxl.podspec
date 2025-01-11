@@ -36,14 +36,14 @@ JPEG XL image format reference implementation
     ss.source_files = 'libjxl/third_party/brotli/c/**/*.{c,cc}'
     ss.exclude_files = 'libjxl/third_party/brotli/c/fuzz', 'libjxl/third_party/brotli/c/tools'
     ss.pod_target_xcconfig = {
-      'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/libjxl/libjxl/third_party/brotli/c/include ${PODS_ROOT}/libjxl/libjxl/third_party/brotli/c'
+      'HEADER_SEARCH_PATHS' => '${PODS_TARGET_SRCROOT}/libjxl/third_party/brotli/c/include ${PODS_TARGET_SRCROOT}/libjxl/third_party/brotli/c'
     }
   end
 
   s.subspec 'lcms' do |ss|
     ss.source_files = 'libjxl/third_party/lcms/src/**/*.{c,cc}'
     ss.pod_target_xcconfig = {
-      'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/libjxl/libjxl/third_party/lcms/include ${PODS_ROOT}/libjxl/libjxl/third_party/lcms/src'
+      'HEADER_SEARCH_PATHS' => '${PODS_TARGET_SRCROOT}/libjxl/third_party/lcms/include ${PODS_TARGET_SRCROOT}/libjxl/third_party/lcms/src'
     }
   end
 
@@ -51,7 +51,7 @@ JPEG XL image format reference implementation
     ss.source_files = 'libjxl/third_party/highway/hwy/**/*.{c,cc}'
     ss.exclude_files = 'libjxl/third_party/highway/hwy/tests', 'libjxl/third_party/highway/hwy/examples', 'libjxl/third_party/highway/hwy/contrib', 'libjxl/third_party/highway/hwy/*_test.{c,cc}'
     ss.pod_target_xcconfig = {
-      'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/libjxl/libjxl/third_party/highway'
+      'HEADER_SEARCH_PATHS' => '${PODS_TARGET_SRCROOT}/libjxl/third_party/highway'
     }
   end
 
@@ -59,20 +59,20 @@ JPEG XL image format reference implementation
     ss.dependency 'libjxl/brotli'
     ss.dependency 'libjxl/lcms'
     ss.dependency 'libjxl/hwy'
-    ss.source_files = 'libjxl/lib/jxl/**/*.{c,cc}', 'libjxl/lib/threadsx/**/*.{c,cc}' 'generate/**/*.{c,cc}', 'include/**/*.h'
+    ss.source_files = 'libjxl/lib/jxl/**/*.{c,cc}', 'libjxl/lib/threads/**/*.{c,cc}', 'generate/**/*.{c,cc}', 'include/**/*.h'
     ss.exclude_files = [
     'libjxl/lib/jxl/**/*_test.{c,cc}', # gtest
     'libjxl/lib/jxl/dec_transforms_testonly.{c,cc}', # test
     'libjxl/lib/jxl/test_image.{c,cc}', # test
     'libjxl/lib/jxl/test_utils.{c,cc}', # test
     'libjxl/lib/jxl/**/*_gbench.{c,cc}', # gbench
-    'libjxl/lib/threads/*_test.{c,cc}', # threads test
+    'libjxl/lib/threads/**/*_test.{c,cc}', # threads test
     ]
     ss.header_mappings_dir = 'include'
     ss.public_header_files = 'include/**/*.h'
     ss.compiler_flags = '-DCMS_NO_REGISTER_KEYWORD', '-fnew-alignment=8', '-fno-cxx-exceptions', '-fno-slp-vectorize', '-fno-vectorize', '-Wno-shorten-64-to-32'
     ss.pod_target_xcconfig = {
-      'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/libjxl/include ${PODS_ROOT}/libjxl/libjxl'
+      'HEADER_SEARCH_PATHS' => '${PODS_TARGET_SRCROOT}/include ${PODS_TARGET_SRCROOT}/libjxl'
     }
   end
 
