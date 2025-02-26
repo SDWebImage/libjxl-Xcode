@@ -31,7 +31,6 @@
 		323E1E582B88989E001C4C15 /* dec_patch_dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1A9C2B88989E001C4C15 /* dec_patch_dictionary.h */; };
 		323E1E592B88989E001C4C15 /* dec_external_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1A9D2B88989E001C4C15 /* dec_external_image.h */; };
 		323E1E5B2B88989E001C4C15 /* enc_butteraugli_comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1A9F2B88989E001C4C15 /* enc_butteraugli_comparator.cc */; };
-		323E1E5D2B88989E001C4C15 /* fast_dct.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1AA12B88989E001C4C15 /* fast_dct.cc */; };
 		323E1E5E2B88989E001C4C15 /* headers.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1AA22B88989E001C4C15 /* headers.cc */; };
 		323E1E612B88989E001C4C15 /* dec_transforms-inl.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1AA52B88989E001C4C15 /* dec_transforms-inl.h */; };
 		323E1E622B88989E001C4C15 /* stage_cms.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1AA72B88989E001C4C15 /* stage_cms.cc */; };
@@ -187,7 +186,6 @@
 		323E1F132B88989F001C4C15 /* opsin_params.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1B592B88989E001C4C15 /* opsin_params.cc */; };
 		323E1F162B88989F001C4C15 /* enc_fields.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1B5C2B88989E001C4C15 /* enc_fields.h */; };
 		323E1F192B88989F001C4C15 /* enc_patch_dictionary.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1B5F2B88989E001C4C15 /* enc_patch_dictionary.cc */; };
-		323E1F1B2B88989F001C4C15 /* fast_dct.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1B612B88989E001C4C15 /* fast_dct.h */; };
 		323E1F1C2B88989F001C4C15 /* dec_ans.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1B622B88989E001C4C15 /* dec_ans.h */; };
 		323E1F1D2B88989F001C4C15 /* loop_filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 323E1B632B88989E001C4C15 /* loop_filter.h */; };
 		323E1F1E2B88989F001C4C15 /* enc_fields.cc in Sources */ = {isa = PBXBuildFile; fileRef = 323E1B642B88989E001C4C15 /* enc_fields.cc */; };
@@ -515,7 +513,6 @@
 		323E1A9C2B88989E001C4C15 /* dec_patch_dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_patch_dictionary.h; sourceTree = "<group>"; };
 		323E1A9D2B88989E001C4C15 /* dec_external_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_external_image.h; sourceTree = "<group>"; };
 		323E1A9F2B88989E001C4C15 /* enc_butteraugli_comparator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enc_butteraugli_comparator.cc; sourceTree = "<group>"; };
-		323E1AA12B88989E001C4C15 /* fast_dct.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fast_dct.cc; sourceTree = "<group>"; };
 		323E1AA22B88989E001C4C15 /* headers.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = headers.cc; sourceTree = "<group>"; };
 		323E1AA52B88989E001C4C15 /* dec_transforms-inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dec_transforms-inl.h"; sourceTree = "<group>"; };
 		323E1AA72B88989E001C4C15 /* stage_cms.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stage_cms.cc; sourceTree = "<group>"; };
@@ -671,7 +668,6 @@
 		323E1B592B88989E001C4C15 /* opsin_params.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opsin_params.cc; sourceTree = "<group>"; };
 		323E1B5C2B88989E001C4C15 /* enc_fields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enc_fields.h; sourceTree = "<group>"; };
 		323E1B5F2B88989E001C4C15 /* enc_patch_dictionary.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enc_patch_dictionary.cc; sourceTree = "<group>"; };
-		323E1B612B88989E001C4C15 /* fast_dct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fast_dct.h; sourceTree = "<group>"; };
 		323E1B622B88989E001C4C15 /* dec_ans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_ans.h; sourceTree = "<group>"; };
 		323E1B632B88989E001C4C15 /* loop_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loop_filter.h; sourceTree = "<group>"; };
 		323E1B642B88989E001C4C15 /* enc_fields.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enc_fields.cc; sourceTree = "<group>"; };
@@ -1100,7 +1096,6 @@
 				323E1A9C2B88989E001C4C15 /* dec_patch_dictionary.h */,
 				323E1A9D2B88989E001C4C15 /* dec_external_image.h */,
 				323E1A9F2B88989E001C4C15 /* enc_butteraugli_comparator.cc */,
-				323E1AA12B88989E001C4C15 /* fast_dct.cc */,
 				323E1AA22B88989E001C4C15 /* headers.cc */,
 				323E1AA52B88989E001C4C15 /* dec_transforms-inl.h */,
 				323E1AA62B88989E001C4C15 /* render_pipeline */,
@@ -1216,7 +1211,6 @@
 				323E1B592B88989E001C4C15 /* opsin_params.cc */,
 				323E1B5C2B88989E001C4C15 /* enc_fields.h */,
 				323E1B5F2B88989E001C4C15 /* enc_patch_dictionary.cc */,
-				323E1B612B88989E001C4C15 /* fast_dct.h */,
 				323E1B622B88989E001C4C15 /* dec_ans.h */,
 				323E1B632B88989E001C4C15 /* loop_filter.h */,
 				323E1B642B88989E001C4C15 /* enc_fields.cc */,
@@ -1868,7 +1862,6 @@
 				323E1E882B88989E001C4C15 /* test_render_pipeline_stages.h in Headers */,
 				323E1FB92B88989F001C4C15 /* iaca.h in Headers */,
 				323E1F5E2B88989F001C4C15 /* enc_encoding.h in Headers */,
-				323E1F1B2B88989F001C4C15 /* fast_dct.h in Headers */,
 				323E1EB02B88989F001C4C15 /* color_encoding_internal.h in Headers */,
 				323E1E812B88989E001C4C15 /* stage_spot.h in Headers */,
 				323E1F4F2B88989F001C4C15 /* quantizer.h in Headers */,
@@ -2293,7 +2286,6 @@
 				323E1F782B88989F001C4C15 /* enc_huffman.cc in Sources */,
 				323E1FA82B88989F001C4C15 /* image_bundle.cc in Sources */,
 				323E1EB12B88989F001C4C15 /* enc_huffman_tree.cc in Sources */,
-				323E1E5D2B88989E001C4C15 /* fast_dct.cc in Sources */,
 				323E1FB72B88989F001C4C15 /* entropy_coder.cc in Sources */,
 				323E1F502B88989F001C4C15 /* dec_xyb.cc in Sources */,
 				323E1F732B88989F001C4C15 /* enc_transform.cc in Sources */,
